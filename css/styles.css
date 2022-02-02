@@ -139,15 +139,15 @@ body {
 .first-page .paragrafo1 {
     display: inline-block;
     position: absolute;
-    top: 47%;
+    top: 50%;
     right: 10%;
     transform: translate(-50%, -50%);
     text-align: left;
-    width: 22%;
+    width: 20%;
 }
 
 .first-page h1 {
-    font-size: 45px;
+    font-size: 50px;
     font-weight: bold;
 }
 
@@ -159,11 +159,11 @@ body {
 }
 /* /first-image */
 
-/* /second-image */
+/* second-image */
 
 .second-page {
     position: relative;
-    height: 600px;
+    height: 800px;
     text-align: center;
     background-color: #f6f6f6;
 }
@@ -179,12 +179,12 @@ body {
 }
 
 .second-page h1 {
-    font-size: 45px;
+    font-size: 50px;
     font-weight: bold;
 }
 
 .second-page p {
-    font-size: 20px;
+    font-size: 25px;
     line-height: 30px;
     letter-spacing:-0.1px;
     margin-top: 15px;
@@ -192,14 +192,174 @@ body {
 
 .second-page img{
     display: inline-block;
-    height: 70%;
+    height: 57%;
     position: absolute;
     top: 50%;
     right: 0;
     transform: translate(-50%, -50%);
 }
+/* background onda */
+.custom-shape-divider-top-1643827237 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1643827237 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 59px;
+}
+
+.custom-shape-divider-top-1643827237 .shape-fill {
+    fill: #FFFFFF;
+}
+/* / background onda */
 
 /* /second-image */
+
+/* Third-image */
+
+.third-page {
+    position: relative;
+    height: 800px;
+    text-align: center;
+}
+
+.third-page img{
+    display: inline-block;
+    height: 57%;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+.third-page .paragrafo3 {
+    display: inline-block;
+    position: absolute;
+    top: 47%;
+    right: 10%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    width: 19%;
+}
+
+.third-page h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.third-page p {
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing:-0.1px;
+    margin-top: 15px;
+}
+/* background onda */
+.custom-shape-divider-top-1643827304 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1643827304 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 59px;
+}
+
+.custom-shape-divider-top-1643827304 .shape-fill {
+    fill: #F6F6F6;
+}
+/* / background onda */
+/* /third-image */
+
+/* fourth-image */
+
+.fourth-page {
+    height: 1300px;
+    position: relative;
+    text-align: center;
+    background-color: #f6f6f6;
+}
+
+.fourth-page .paragrafo4 {
+    display: inline-block;
+    margin-top: 180px;
+}
+
+.fourth-page h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.fourth-page p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing:-0.1px;
+    margin-top: 15px;
+}
+
+.fourth-page img{
+    width: 1150px;
+    display: inline-block;    
+}
+    
+.fourth-page .final-title {
+    background-image: url(../img/stars.svg);
+    background-position: center;
+    font-size: 28px;
+    height: 55px;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+
+}
+
+.fourth-page .button-scarica {
+    border-radius: 50px;
+    padding: 17px 5px;
+    text-decoration: none;
+
+    display: inline-block;
+    background-color: #8ea1e1;
+    margin: 60px 20px;
+    color: white;
+}
+
+/* background wave  */
+.custom-shape-divider-top-1643831920 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1643831920 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 59px;
+}
+
+.custom-shape-divider-top-1643831920 .shape-fill {
+    fill: #FFFFFF;
+}
+/* / background wave */
+
+/* /fourth-image */
 
 
 /* interactive */
