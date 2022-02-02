@@ -72,7 +72,6 @@ body {
     color: black;
     font-size: 15px;
 }
-
 /* /header */
 
 /* bottom-header */
@@ -120,7 +119,6 @@ body {
 /* /bottom-header */
 
 /* first-image */
-
 .first-page {
     position: relative;
     height: 600px;
@@ -160,7 +158,6 @@ body {
 /* /first-image */
 
 /* second-image */
-
 .second-page {
     position: relative;
     height: 800px;
@@ -220,11 +217,9 @@ body {
     fill: #FFFFFF;
 }
 /* / background onda */
-
 /* /second-image */
 
 /* Third-image */
-
 .third-page {
     position: relative;
     height: 800px;
@@ -286,7 +281,6 @@ body {
 /* /third-image */
 
 /* fourth-image */
-
 .fourth-page {
     height: 1300px;
     position: relative;
@@ -358,8 +352,7 @@ body {
     fill: #FFFFFF;
 }
 /* / background wave */
-
-/* /fourth-image */
+/* / fourth-image */
 
 
 /* interactive */
