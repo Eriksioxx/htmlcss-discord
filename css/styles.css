@@ -21,8 +21,14 @@ body {
     margin: 0 auto;
 }
 
-/* content */
+.content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
 
+/* header */
 .top-header {
     background-color: #3161e0;
     width: 100%;
@@ -67,13 +73,9 @@ body {
     font-size: 15px;
 }
 
-.content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
+/* /header */
 
+/* bottom-header */
 .bottom-header {
     position: relative;
     background-image: url("../img/jumbo.png");
@@ -92,9 +94,132 @@ body {
 .bottom-header p {
     font-size: 19px;
     line-height: 25px;
-    letter-spacing:-1px;
+    letter-spacing:-0.1px;
     
 }
+
+.bottom-header a {
+    border-radius: 50px;
+    padding: 17px 5px;
+    text-decoration: none;
+}
+
+.bottom-header .button-scarica {
+    display: inline-block;
+    background-color: white;
+    margin: 20px 20px;
+    color: black;
+}
+
+.bottom-header .button-browser {
+    display: inline-block;
+    background-color: #23272a;
+    margin: 20px 20px;
+    color: white;
+}
+/* /bottom-header */
+
+/* first-image */
+
+.first-page {
+    position: relative;
+    height: 600px;
+    text-align: center;
+}
+
+.first-page img{
+    display: inline-block;
+    height: 70%;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+.first-page .paragrafo1 {
+    display: inline-block;
+    position: absolute;
+    top: 47%;
+    right: 10%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    width: 22%;
+}
+
+.first-page h1 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.first-page p {
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing:-0.1px;
+    margin-top: 15px;
+}
+/* /first-image */
+
+/* /second-image */
+
+.second-page {
+    position: relative;
+    height: 600px;
+    text-align: center;
+    background-color: #f6f6f6;
+}
+
+.second-page .paragrafo2 {
+    display: inline-block;
+    position: absolute;
+    top: 47%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    width: 22%;
+}
+
+.second-page h1 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.second-page p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing:-0.1px;
+    margin-top: 15px;
+}
+
+.second-page img{
+    display: inline-block;
+    height: 70%;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+}
+
+/* /second-image */
+
+
+/* interactive */
+
+.button-accedi:hover {
+    background-color: black;
+    color: white;
+    }
+    
+
+.button-scarica:hover {
+    background-color: black;
+    color: white;
+}
+
+.button-browser:hover {
+    background-color: white;
+    color: black;
+    }
+
 /* utilities */
 
 .float-left {
