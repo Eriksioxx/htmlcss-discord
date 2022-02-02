@@ -354,6 +354,106 @@ body {
 /* / background wave */
 /* / fourth-image */
 
+/* footer */
+.final-page {
+    background-color: #23272a;
+    height: 600px;
+}
+
+.final-page .aside1 {
+    width: 30%;
+    position: relative;
+    margin-top: 80px;
+
+}
+
+.final-page .aside1 h1 {
+    color: #7289da;
+}
+
+.final-page .aside1 .bandiera-italiana {
+    display: inline-block;
+    height: 15px;
+    width: 20px;
+    background: linear-gradient(
+    to right,green 33.33%, white 33.33%, white 66.66%, red 66.66%);
+    }
+
+.final-page span {
+    display: inline-block;
+    margin-top: 25px;
+    font-size: 15px;
+    color: white;
+}    
+
+.final-page .socials {
+    position: absolute;
+    left: -20px;
+}
+
+.final-page img {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-left: 20px;
+    }
+
+.final-page .icon {
+    color: white;
+}
+
+.final-page .aside2 {
+    width: 15%;
+    margin-top: 80px;
+    
+}
+
+.final-page .aside2 h4{
+    color: #7289da;
+}
+
+.final-page .aside2 ul {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.final-page .aside2 li {
+    margin-top: 15px;
+}
+
+.final-page .aside2 a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.final-page .aside-top {
+    border-bottom: 1px solid #8ea1e1;
+    height: 480px;
+}
+
+#logo-footer {
+    height: 80px;
+    width: 120px;
+    margin: 0;
+}
+
+.final-page .button-registrati {
+    display: inline-block;
+    text-align: center;
+
+    width: 7%;
+    line-height: 40px;
+    background-color: #8ea1e1;
+    border-radius: 50px;
+    height: 40px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+
+    margin-top: 20px;
+}
+/* / footer */
 
 /* interactive */
 
@@ -373,7 +473,15 @@ body {
     color: black;
     }
 
+.button-registrati:hover {
+    background-color: white;
+    color: black;
+}
+
 /* utilities */
+.float-right {
+    float: right;
+}
 
 .float-left {
     float: left;
@@ -399,4 +507,11 @@ body {
 }
 .w-70 {
     width: 70%;
+}
+
+.w-80 {
+    width: 80%;
+}
+.w-90 {
+    width: 90%;
 }
