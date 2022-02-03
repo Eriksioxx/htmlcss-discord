@@ -458,26 +458,34 @@ body {
 /* interactive */
 
 .button-accedi:hover {
+    text-decoration: underline;
     background-color: black;
     color: white;
     }
     
 
 .button-scarica:hover {
+    text-decoration: underline;
     background-color: black;
     color: white;
 }
 
 .button-browser:hover {
+    text-decoration: underline;
     background-color: white;
     color: black;
     }
 
 .button-registrati:hover {
+    text-decoration: underline;
     background-color: white;
     color: black;
 }
 
+.aside2 a:hover,
+li a:hover {
+    text-decoration: underline;
+}
 /* utilities */
 .float-right {
     float: right;
